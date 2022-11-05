@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+.section-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 15px;
+  width: 70%;
+}
+
+.sidebar-container {
+  box-shadow: 0 2px 5px black;
+  color: gray;
+}
+
+.sidebar-img {
+  background-image: url("https://www.w3schools.com/w3images/avatar_hat.jpg");
+  background-size: cover;
+  width: 100%;
+  min-height: 310px;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.sidebar-img h2 {
+  margin-left: 15px;
+  letter-spacing: 3px;
+}
+
+.sidebar-container3,
+.sidebar-container2,
+.sidebar-container1 {
+  padding: 15px;
+}
+
+span {
+  color: #009688;
+  margin-right: 15px;
+}
+
+hr {
+  width: 95%;
+  opacity: 0.3;
+}
+
+.sidebar-p1,
+.sidebar-p2 {
+  font-size: 20px;
+  color: gray;
+  font-weight: bold;
+}
+
+.progress-bar1 {
+  background-color: #F1F1F1;
+  color: black;
+  border-radius: 15px;
+}
+
+.progress-bar2 {
+  background-color: #009688;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.progress-bar3 {
+  background-color: #009688;
+  color: #009688;
+  border-radius: 15px;
+  text-align: center;
+}
