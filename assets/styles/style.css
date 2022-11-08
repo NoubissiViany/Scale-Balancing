@@ -15,7 +15,7 @@
 }
 
 .sidebar-container {
-  box-shadow: 0 2px 5px black;
+  box-shadow: 0 2px 5px gray;
   color: gray;
   padding: 15px;
   margin-bottom: 150px;
@@ -84,7 +84,7 @@ span {
 /* Right Column */
 
 .column-container {
-  box-shadow: 1px 2px 5px black;
+  box-shadow: 1px 2px 5px gray;
   margin: 0 25px;
   padding: 15px;
 }
@@ -126,10 +126,31 @@ h1 {
 /* Right column2 */
 
 .column-container2 {
-  box-shadow: 1px 2px 5px black;
+  box-shadow: 1px 2px 5px gray;
   margin: 0 25px;
   padding: 15px;
   margin-top: 15px;
+}
+
+/* footer */
+
+.footer-container {
+  background-color: #009688;
+  color: white;
+  text-align: center;
+  margin-top: -8%;
+  padding: 15px;
+}
+
+.footer-container i:hover {
+  background-color: grey;
+  opacity: 0.4;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    margin-top: -1%;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -144,21 +165,5 @@ h1 {
   .column-container,
   .column-container2 {
     margin: 15px 0;
-  }
-}
-
-/* footer */
-
-.footer-container {
-  background-color: #009688;
-  color: white;
-  text-align: center;
-  margin-top: -8%;
-  padding: 15px;
-}
-
-@media only screen and (max-width: 768px) {
-  .footer-container {
-    margin-top: -1%;
   }
 }
