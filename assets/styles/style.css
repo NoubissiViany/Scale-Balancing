@@ -62,7 +62,7 @@ span {
 }
 
 .progress-bar1 {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   color: black;
   border-radius: 15px;
 }
@@ -157,7 +157,7 @@ h1 {
   .section-container {
     display: block;
   }
-  
+
   .sidebar-container {
     margin-bottom: 0;
   }
