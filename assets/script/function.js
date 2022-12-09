@@ -3,13 +3,16 @@ const output = document.querySelector('.heading2')
 const capacity = document.querySelector('.capacity')
 const heading = document.querySelector('.heading')
 const heading1 = document.querySelector('.heading1')
+let addItem = document.querySelector('.additem')
+let reset = document.querySelector('.reset')
+let done = document.querySelector('.done')
 let selectedObj
 
 const knapsack = {
   capacity: 0,
   weight: 0,
   value: 0,
-  items: [],
+  items: []
 }
 
 const items = [
@@ -20,19 +23,19 @@ const items = [
   { name: 'Shoes', weight: 7, value: 10 },
   { name: 'Bag', weight: 2, value: 5 },
   { name: 'Airpods', weight: 4, value: 9 },
-  { name: 'Macbook', weight: 25, value: 30 },
+  { name: 'Macbook', weight: 25, value: 30 }
 ]
 
-function reload() {
+reset.onclick = function reload () {
   window.location.reload()
 }
 
-function disable() {
+done.onclick = function disable () {
   knapsack.capacity = capacity.value
   capacity.disabled = true
 }
 
-function getOption() {
+addItem.onclick = function getOption() {
   if (knapsack.capacity === 0) {
     alert('Please input the maximum capacity')
   } else {
