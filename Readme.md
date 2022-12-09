@@ -11,7 +11,7 @@ this project is all about shopping card.
 - HTML
 - CSS
 - JS
-- 
+
 ### Prerequisites
 
 Knowledge about:
