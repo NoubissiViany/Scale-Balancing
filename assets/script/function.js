@@ -3,9 +3,9 @@ const output = document.querySelector('.heading2')
 const capacity = document.querySelector('.capacity')
 const heading = document.querySelector('.heading')
 const heading1 = document.querySelector('.heading1')
-let addItem = document.querySelector('.additem')
-let reset = document.querySelector('.reset')
-let done = document.querySelector('.done')
+const addItem = document.querySelector('.additem')
+const reset = document.querySelector('.reset')
+const done = document.querySelector('.done')
 let selectedObj
 
 const knapsack = {
@@ -35,7 +35,7 @@ done.onclick = function disable () {
   capacity.disabled = true
 }
 
-addItem.onclick = function getOption() {
+addItem.onclick = function getOption () {
   if (knapsack.capacity === 0) {
     alert('Please input the maximum capacity')
   } else {
