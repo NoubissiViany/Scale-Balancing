@@ -4,7 +4,8 @@ const btn1 = document.querySelector('.btn1')
 const btn2 = document.querySelector('.btn2')
 const btn3 = document.querySelector('.btn')
 const para = document.querySelector('.p1')
-let arr1 = [], arr2 = []
+let arr1 = []
+let arr2 = []
 let val, val2
 let result1, result2
 
@@ -36,9 +37,9 @@ btn3.onclick = function scaleBalancing () {
       result1 = parseInt(arr1[0]) + parseInt(arr2[i])
       result2 = parseInt(arr1[1]) + parseInt(arr2[j])
       if (result1 === result2) {
-        found = true,
+        found = true
         vall1 = arr2[j]
-        vall2 = arr2[i] 
+        vall2 = arr2[i]
         break
       }
     }
