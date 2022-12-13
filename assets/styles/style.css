@@ -3,7 +3,7 @@
 }
 
 .container1 {
-  margin:auto;
+  margin: auto;
   max-width: 450px;
   padding: 10px 50px 30px;
   border: 1px solid black;
@@ -12,16 +12,16 @@
 }
 
 .container2,
-.container3{
+.container3 {
   display: flex;
   gap: 5px;
   margin-bottom: 10px;
 }
 
 .heading {
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .scale1,
@@ -42,21 +42,21 @@
 }
 
 .btn {
-    border: none;
-    background-color: green;
-    padding: 15px 12px;
-    color: white;
-    font-weight: bold;
-    font-size: 17px;
-    border-radius: 5px; 
-    margin-bottom: 10px;  
-    width: 100%;
+  border: none;
+  background-color: green;
+  padding: 15px 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .result {
-    border: none;
-    padding: 80px 50px;
-    background-color: ghostwhite;
+  border: none;
+  padding: 80px 50px;
+  background-color: ghostwhite;
 }
 
 .p1 {
