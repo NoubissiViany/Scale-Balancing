@@ -30,6 +30,9 @@
   padding: 20px 16px;
   border-radius: 5px;
   width: 80%;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .btn1,
